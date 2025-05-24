@@ -1,3 +1,3 @@
 ### 🔧 Instalación
 
-```npx create-next-app first-steps 
+``` npx create-next-app first-steps 
