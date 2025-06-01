@@ -1,0 +1,41 @@
+# ----------------------------------------------------------------
+# Ignorar módulos y builds de cualquier subproyecto Next.js
+# ----------------------------------------------------------------
+
+# node_modules en cualquier subcarpeta
+**/node_modules/
+
+# Carpeta de compilación de Next.js
+**/.next/
+
+# Carpeta de salida estática (si usas `next export`)
+**/out/
+
+# Archivos de entorno y logs que suelen generarse localmente
+**/.env.local
+**/.env.*.local
+**/*.log
+
+# Archivos del sistema o editores: 
+.DS_Store
+Thumbs.db
+.vscode/
+
+**/.DS_Store
+**/Thumbs.db
+**/.vscode/
+
+# Si cada subproyecto genera un paquete .zip, .tar o similares:
+**/*.zip
+**/*.tar.gz
+
+# ----------------------------------------------------------------
+# (Opcional) Si quieres ignorar carpetas o archivos específicos 
+# que sólo existan en la raíz del repositorio, agrégalos aquí:
+# ----------------------------------------------------------------
+
+# Por ejemplo, si no quieres versionar un directorio temporal
+/tmp/
+build-local/
+
+
