@@ -13,6 +13,8 @@ npx create-next-app first-steps
 #√ Would you like to use App Router? (recommended) ... No / Yes (yes)
 #√ Would you like to use Turbopack for `next dev`? ... No / Yes (yes)
 #√ Would you like to customize the import alias (`@/*` by default)? ... #No / Yes (no)
+
+# Cambiar nombre a carpeta
 mv first-steps 01-first-steps
 cd 01-first-steps
 npm run dev
