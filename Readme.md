@@ -18,4 +18,7 @@ npx create-next-app first-steps
 mv first-steps 01-first-steps
 cd 01-first-steps
 npm run dev
+
+#Install 
+npm i @primer/octicons-react
 ```
